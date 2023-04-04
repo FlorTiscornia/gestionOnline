@@ -1,14 +1,13 @@
 <script>
 export default {
-
 }
 </script>
 
 <template>
     <div>
-        <h1>API</h1>
+        <h1 class="home">API</h1>
             <ul>
-                <li>Reimpresiones
+                <li class="title">Reimpresiones
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -17,8 +16,8 @@ export default {
                             <span>Por transacción</span>
                         </div>
                     </a>
-                </li>
-                <li>Interbanking
+                </li >
+                <li class="title">Interbanking
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -28,7 +27,7 @@ export default {
                         </div>
                     </a>
                 </li> 
-                <li>Debines
+                <li class="title">Debines
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -38,7 +37,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Facturas
+                <li class="title">Facturas
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -48,7 +47,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Búsqueda de comprobantes
+                <li class="title">Búsqueda de comprobantes
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -58,7 +57,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Conformar transacciones
+                <li class="title">Conformar transacciones
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -68,7 +67,7 @@ export default {
                         </div>
                     </a> 
                 </li>
-                <li>Formulario Toyota
+                <li class="title">Formulario Toyota
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -78,7 +77,7 @@ export default {
                         </div>
                     </a>
                 </li> 
-                <li>Webservices
+                <li class="title">Webservices
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -88,7 +87,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Créditos validados
+                <li class="title">Créditos validados
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -98,7 +97,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Consulta
+                <li class="title">Consulta
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -108,7 +107,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Consulta por transacciones
+                <li class="title">Consulta por transacciones
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -118,7 +117,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Retenciones
+                <li class="title">Retenciones
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -128,7 +127,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Cuenta Corriente
+                <li class="title">Cuenta Corriente
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -138,7 +137,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Reprocesar BL
+                <li class="title">Reprocesar BL
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -148,7 +147,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Cuenta Corriente
+                <li class="title">Cuenta Corriente
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -158,7 +157,7 @@ export default {
                         </div>
                     </a>
                 </li>
-                <li>Reprocesar IB ERROR
+                <li class="title">Reprocesar IB ERROR
                     <a href="#reprocesarIBError" class="scroll-link">
                         <div>
                             <i class="#"></i>
@@ -176,4 +175,14 @@ export default {
 
 <style lang="css" scoped>
 
+.title {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 40px 20px;
+    row-gap: 40px;
+}
+.home {
+    flex-direction: center;
+    justify-items: center;
+}
 </style>
